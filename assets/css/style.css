@@ -1,3 +1,4 @@
+
 body * {
     margin: 0;
     padding: 0;
@@ -6,10 +7,71 @@ body * {
 
 body {
     background-color: #000000;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
+.card img {
+    max-height: 11rem;
+}
+
+.card {
+    min-height: 24rem;
+    width: 90%;
+    margin-left: 0.9rem;
+}
+
+.separador {
+    opacity: 100%;
+    border-top: 1px solid #17a3b8;
+    width: 100%;
+}
+
+.destacados {
+    margin-bottom: 10rem;
+}
+
+.contacto {
+    margin-bottom: 10rem;
+}
+
+.icono {
+    display: inline-block;
+    margin: 0;
+    padding: 1px;
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+}
+
+.iconos {
+    padding-left: 15rem;
+    color:white;
+   
+}
+
+.iconos i {
+    padding-left: 1rem;
+    
+}
+
+
+.texto {
+    margin: 0;
+
+}
+
+.pie h3{
+    font-weight: 700;
+}
+
+
 .colorNav {
-    color: white;
-    background-color: transparent;
+    background-color: white;
+}
+
+.modal-title {
+    color: black;
+}
+
+.modal-body {
+    color:black;
 }
